@@ -1,0 +1,69 @@
+
+
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    border-radius: 8px;
+    width: 20%;
+    height: 300px;
+    padding: 10px;
+    background-color: #dedede;
+    margin: auto;
+    margin-top: 250px;
+    flex-direction: column;
+   
+
+}
+
+h1{
+   color: #120A8F;
+   font-size:30px
+}
+
+.senha{
+   display: flex;
+   flex-direction: column;
+   
+}
+
+
+#email{
+    padding: 8px;
+    width: 180px;
+    border: none;
+    border-radius: 8px;
+    margin-bottom: 8px;
+    outline: none;
+    cursor: pointer;
+    
+}
+
+
+.btts{
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.btt{
+    padding: 6px;
+    border-radius: 8px;
+    border: none;
+    margin-right: 60px;
+    cursor: pointer;
+    color: #120A8F;
+    font-weight: 400;
+    font-size: 14px;
+    font-family: sans-serif;
+    background-color: white;
+}
+
+
+.btt:hover{
+    background-color: #120A8F;
+    color: white;
+    transition: 1s;
+}
+

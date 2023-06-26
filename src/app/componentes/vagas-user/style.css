@@ -1,0 +1,47 @@
+.container-vagas{
+    background-color: #ecececd6;
+    width: 650px;
+    height: 950px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+     border-radius: 10px;
+     margin-top: 150px;
+
+    
+}
+
+.vagas{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   color: white; 
+    background-color:#140e72 ;
+    width: 70%;
+    height: max-content;
+    padding: 10px;
+    border-radius: 7px;
+    margin-top: 10px;
+    font-size: 17px;
+    font-weight: 400;
+    font-family: sans-serif
+    
+
+}
+
+button{
+    width: 100px;
+    padding: 8px;
+    border-radius: 10px;
+    border: none;
+    cursor:pointer;
+
+}
+
+
+button:hover{
+    background-color: #5045e4;
+    color: white;       
+    transition: 0.8s;
+}

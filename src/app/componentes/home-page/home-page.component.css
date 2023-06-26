@@ -11,32 +11,31 @@
     justify-content: center;
     font-family: 'Poppins', sans-serif;
     font-weight: 900;
-    top:0;
+    background-color: #fff;
     
-
 }
+
+
+.home-page-search {
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    
+}
+
+
 
 .example-full-width{
    margin-top: 15px;
    width: 200px;
    height: 75px;
-
+ 
  
 
    
 }
 
-::placeholder{
 
-    text-align: flex-start;
-    color: black;
- 
-}
-.search-input{
-    margin-bottom: 10px;
-    font-size: 20px;
-   
-}
 
 
 .ufam-ads {
@@ -44,25 +43,15 @@
     display: flex;
     flex-direction: column;
     width: 650px;
-    height: 900px;
+    height: max-content;
     justify-content: center;
     align-items: center;
     border-radius: 10px;
-    margin-bottom: 50px ;
-    margin: fixed;
-    margin-top: 140px;
-    background-color:#fff;
-
-    
-
-    
+    margin: 0 auto;
+    background-color:#ecececd6;
+    padding: 20px;    
 }
-.home-page-search {
-    position: fixed;
-    top: 0;
-    z-index: 1;
-    
-}
+
 
 .ufam-ad-card {
     display: flex;
@@ -74,10 +63,11 @@
     border: 2px solid #120A8F ;
     padding: 10px;
     border-radius: 7px;
-    background-color: #120A8F;
+    background-color: #140e72;
     color:white;
     font-size: 15px;
     margin-top: 0;
+    cursor: pointer;
     
 
     
@@ -85,7 +75,5 @@
    
 }
 
-.ufam-ad-card:hover {
-    
-}
+
 

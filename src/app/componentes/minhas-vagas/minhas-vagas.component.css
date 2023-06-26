@@ -2,29 +2,71 @@
     width: 100%;
     height: 100%;
     display: flex;
+    justify-content:center;
+    
+
+    
+}
+
+
+.vagas{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+    width: 650px;
+    height:max-content;
+    background-color:#ecececd6 ;
+    border-radius: 10px;
+    position:fixed;
+    
+    
+
+}
+
+.vagas-field{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    background-color:#140e72 ;
+    color: white;
+    font-size: 15px;
+    padding: 10px;
+    border-radius: 7px;
+    margin-top: 10px;
+    position: sticky;
+  
+
+
+
+}
+
+
+
+/*.vagas{
+    
+    display: flex;
+    flex-direction: column;
+    width: 650px;
+    height: 900px;
     justify-content: center;
     align-items: center;
-}
-.vagas{
-    width: 50%;
-    height: 100%;
-    border : 1px solid black;
-    display: flex;
-    justify-content: center;
-    align-items: flex-start;
-    flex-direction: column;
+    border-radius: 10px;
+    background-color:#ecececd6;
     
 }
 .vagas-field{
-    padding: 20px;
-    border-radius: 15px;
-    background-color: rgba(128, 128, 128, 0.5);
-    width: 80%;
     display: flex;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 20px;
-    justify-content: center;
     flex-direction: column;
+    justify-content: center;
+    width: 70%;
+    margin: 1rem;
+    padding: 10px;
+    border-radius: 7px;
+    background-color: #140e72;
+    color:white;
+    font-size: 15px; 
+    cursor: pointer;
     
 }
+  */
